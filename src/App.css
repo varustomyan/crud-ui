@@ -1,0 +1,86 @@
+.App {
+  max-width: 1200px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+
+th {
+  min-width: 105px;
+  border: 1px solid grey;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+button {
+  flex: auto;
+}
+
+th:first-child {
+  min-width: 30px;
+}
+
+td {
+  border: 1px solid grey;
+  padding: 5px 10px 5px 5px;
+}
+
+td:first-child {
+  text-align: center;
+  background-color: aliceblue;
+  
+}
+
+td:last-child {
+  width: 125px;
+  text-align: center;
+  display: flex;
+}
+
+
+input {
+  box-sizing: border-box;
+  margin-right: 0; /* 2 */
+  padding-right: 5px;
+  /* display: inline-block; */
+  min-width: 100px;
+  width: fit-content; 
+  /* width: 1vh; */
+  position: relative;
+  border: none;
+  height: 1.7em;
+  background-color: #fff;
+
+  outline-style: none;
+}
+
+input:disabled {
+  color: black;
+}
+
+.input .active {
+  border: 1px solid;
+  border-radius: 3px;
+  border-style: dashed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+
+
